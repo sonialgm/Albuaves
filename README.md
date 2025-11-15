@@ -54,7 +54,7 @@ El programa inicial presentaba algunos errores que he modificado.
   WHERE img_url LIKE './imgs/aves//%';
   ```
 
-No funcionaba el **GET** a partir del *id* de las aves.  
+- No funcionaba el **GET** a partir del *id* de las aves.  
 Modifiqué la siguiente línea en `api.php`:
 
 ```php
