@@ -28,17 +28,11 @@ funciones:
 sudo apt update; sudo apt install sqlitebrowser php-sqlite3
 ```
 
-## URLs de interés
-
-### JSON.org
-
-Podemos encontrar más información acerca de JSON.org en la página de 
-GitHub del desarrollador principal.
-
-https://github.com/stleary/JSON-java
-
------
-
+### Tecnologías
+- **Java**
+- **SQLite**
+- **php**
+  
 ### Cambios realizados
 
 El programa inicial presentaba algunos errores que he modificado. 
@@ -60,6 +54,9 @@ Modifiqué la siguiente línea en `api.php`:
 ```php
 $stmt->bindValue(':bird_id', $id, SQLITE3_INTEGER);
 ```
+### Estructura del proyecto
+
+### Funcionamiento del programa
 
 ### Ejecución y resultados
 
