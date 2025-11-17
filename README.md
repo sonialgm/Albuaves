@@ -63,7 +63,7 @@ $stmt->bindValue(':bird_id', $id, SQLITE3_INTEGER);
 
 ### Ejecución y resultados
 
-- **Cliente: Java ejecutándose en la terminal:**
+- **Cliente: Java ejecutándose en la terminal**
 
   ```bash
   javac -cp .:json-20250517.jar SearchBirdsAPI.java
@@ -71,7 +71,7 @@ $stmt->bindValue(':bird_id', $id, SQLITE3_INTEGER);
   ```
 <img width="1223" height="580" alt="Java_Terminal" src="https://github.com/user-attachments/assets/5f853500-a626-44e2-b8ea-a0962da02bf7" />
 
-- **API en el navegador:**  
+- **API en el navegador**  
   1. Iniciar el servidor mediante `run-api.server.sh`.  
   2. Comprobar el funcionamiento de la API en el navegador:  
      - `http://localhost:9191/api.php`
