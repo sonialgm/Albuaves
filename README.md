@@ -70,13 +70,13 @@ $stmt->bindValue(':bird_id', $id, SQLITE3_INTEGER);
 
 - **API en el navegador**  
   1. Iniciar el servidor mediante `run-api.server.sh`.  
-  2. Comprobar el funcionamiento de la API en el navegador:  
-     - `http://localhost:9191/api.php`
-     - 
-       <img width="1214" height="700" alt="API_Navegador" src="https://github.com/user-attachments/assets/d9353cf1-b33d-4100-b629-9a59892b4b71" />
+  2. Comprobar el funcionamiento de la API en el navegador:
+     `http://localhost:9191/api.php`
        
-     - Si filtramos por ID, en este ejemplo el 1: `http://localhost:9191/api.php?bird_id=1`
-     - 
+       <img width="1214" height="700" alt="API_Navegador" src="https://github.com/user-attachments/assets/d9353cf1-b33d-4100-b629-9a59892b4b71" />
+
+     Si filtramos por ID, en este ejemplo el 1: `http://localhost:9191/api.php?bird_id=1`
+       
        <img width="1214" height="441" alt="API_Navegador_GET" src="https://github.com/user-attachments/assets/36601b9a-4913-4e0d-9001-e5360633a58f" />
 
 
