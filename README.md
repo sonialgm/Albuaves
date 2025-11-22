@@ -48,6 +48,7 @@ sudo apt install sqlitebrowser php-sqlite3
 
 ## Estructura del proyecto
 
+```text
 /Proyecto_Albuaves
 │
 ├── db/  <!-- Base de datos y scripts SQL -->
@@ -68,7 +69,7 @@ sudo apt install sqlitebrowser php-sqlite3
 │   └── api.php
 │
 └── run-api-server.sh  <!-- Script para iniciar la API -->
-
+```
 
 ---
 
