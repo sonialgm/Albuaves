@@ -49,26 +49,26 @@ sudo apt install sqlitebrowser php-sqlite3
 ## Estructura del proyecto
 
 ```text
-/Proyecto_Albuaves
+Proyecto_Albuaves/
 │
-├── db/  <!-- Base de datos y scripts SQL -->
+├── db/                     # Base de datos y scripts SQL
 │   ├── albuaves-db-create.sql
 │   ├── albuaves-tables-population.sql
 │   └── albuaves.db
 │
-├── imgs/  <!-- Imágenes de las aves -->
+├── imgs/                   # Imágenes de las aves
 │
 ├── java/
 │   ├── BuscadorAvesCompiler.sh
 │   ├── SearchBirdsAPI.java
 │   └── json-20250517.jar
 │
-├── libs/  <!-- Librerías adicionales -->
+├── libs/                   # Librerías adicionales
 │
-├── php/  <!-- Código PHP de la API -->
+├── php/                    # Código PHP de la API
 │   └── api.php
 │
-└── run-api-server.sh  <!-- Script para iniciar la API -->
+└── run-api-server.sh       # Script para iniciar la API
 ```
 
 ---
