@@ -121,16 +121,14 @@ java -cp .:lib/json-20250517.jar SearchBirdsAPI
 ```
 
 ### Probar API en el navegador
-```bash
 `http://localhost:9191/api.php`
 `http://localhost:9191/api.php?bird_id=1`
-```
 
 ---
 
-### Ejecución y resultados
+## Ejecución y resultados
 
--  **Cliente: Java ejecutándose en la terminal**
+### Cliente: Java ejecutándose en la terminal
   ```bash
   cd java
   javac -cp .:lib/json-20250517.jar SearchBirdsAPI.java
@@ -138,9 +136,9 @@ java -cp .:lib/json-20250517.jar SearchBirdsAPI
   ```
 <img width="1223" height="580" alt="Java_Terminal" src="https://github.com/user-attachments/assets/5f853500-a626-44e2-b8ea-a0962da02bf7" />
 
-- **API en el navegador**
-  1. Iniciar el servidor mediante `run-api.server.sh`.  
-  2. Comprobar el funcionamiento de la API en el navegador:
+### API en el navegador
+- Iniciar el servidor mediante `run-api.server.sh`.  
+- Comprobar el funcionamiento de la API en el navegador:
      `http://localhost:9191/api.php`
        
        <img width="1214" height="700" alt="API_Navegador" src="https://github.com/user-attachments/assets/d9353cf1-b33d-4100-b629-9a59892b4b71" />
